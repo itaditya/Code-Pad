@@ -1,5 +1,5 @@
 #Code-Pad
-It is a platform where students use to code online like many competative sites. It is a college competative platform for teacher-student interaction.
+>It is a platform where students use to code online like many competative sites. It is a college competative platform for teacher-student interaction.
 Teachers organise events for the students. This improves the skills set of students.
 
 #Installation and Contribution
@@ -13,24 +13,24 @@ Teachers organise events for the students. This improves the skills set of stude
 
 ###Installation :
 
-Fork and Clone this repo or download it on your local system.
+* Fork and Clone this repo or download it on your local system.
 
-Open composer and run this given command.
+* Open composer and run this given command.
 ```
 composer update
 ```
 
-After updating composer, migrate the database.
+* After updating composer, migrate the database.
 ```
 php artisan migrate
 ```
 
-Seed the database
+* Seed the database
 ```
 php artisan db:seed
 ```
 
-For Login
+* For Login
 ```
 For Student login:
 Admission No. : 15cse075
@@ -41,12 +41,12 @@ Email Id : teacher@jssaten.com
 Password : helloworld
 ```
 
-Run this project on localhost
+* Run this project on localhost
 ```
 php artisan serve
 ```
 
-This project will run on this server:
+* This project will run on this server:
 ```
 http://localhost:8000/
 ```
